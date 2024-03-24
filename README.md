@@ -14,9 +14,12 @@ winget install fzf
 winget install --id Starship.Starship
 winget install ajeetdsouza.zoxide
 ```
+
 # Setup
-Environment variables
 
+## Environment variables
+
+```
 FZF_DEFAULT_COMMAND = rg --files --hidden --glob "!*.git" --glob "!AppData" --glob "!.nuget" --glob "!.dotnet"  
-
 FZF_ALT_C_OPTS = --walker-skip .git,node_modules,target,obj,AppDate,.nuget --preview "tree -C {} | head -200"
+```
