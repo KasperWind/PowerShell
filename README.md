@@ -7,7 +7,7 @@ Clone to personal powershell home directory, typical `$HOME\Documents\PowerShell
 if Winget is install run
 
 ```PowerShell
-winget install bat
+winget install sharkdp.bat
 winget install eza
 winget install BurntSushi.ripgrep.MSVC
 winget install fzf
