@@ -12,7 +12,8 @@ Set-Alias -Name l -Value ls
 function ll {eza --long}
 function lll {eza --long --all}
 Set-Alias -Name la -Value lll
-function lt {eza --long --tree}
+function lt {eza --long --tree --git-ignore}
+function gitl {git log --pretty=oneline --graph --abbrev-commit}
 
 # default ripgrep
 # rg --files --hidden --glob '!*.git' --glob '!AppData' --glob '!.nuget' --glob '!.dotnet'
