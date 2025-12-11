@@ -8,7 +8,7 @@ if Winget is install run
 
 ```PowerShell
 winget install sharkdp.bat
-winget install eza
+winget install --id lsd-rs.lsd
 winget install BurntSushi.ripgrep.MSVC
 winget install fzf
 winget install --id Starship.Starship
