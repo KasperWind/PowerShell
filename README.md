@@ -10,7 +10,7 @@ if Winget is install run
 winget install sharkdp.bat
 winget install --id lsd-rs.lsd
 winget install BurntSushi.ripgrep.MSVC
-winget install fzf
+winget install --id junegun.fzf
 winget install --id Starship.Starship
 winget install ajeetdsouza.zoxide
 Install-Module -Name PSFzf
