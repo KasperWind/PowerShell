@@ -7,13 +7,13 @@ Clone to personal powershell home directory, typical `$HOME\Documents\PowerShell
 if Winget is install run
 
 ```PowerShell
-winget install sharkdp.bat
-winget install --id lsd-rs.lsd
-winget install BurntSushi.ripgrep.MSVC
-winget install --id junegun.fzf
-winget install --id Starship.Starship
-winget install ajeetdsouza.zoxide
-Install-Module -Name PSFzf
+winget install sharkdp.bat --source winget
+winget install --id lsd-rs.lsd --source winget
+winget install BurntSushi.ripgrep.MSVC --source winget
+winget install --id junegun.fzf --source winget
+winget install --id Starship.Starship --source winget
+winget install ajeetdsouza.zoxide --source winget
+Install-Module -Name PSFzf --source winget
 ```
 
 # Setup
