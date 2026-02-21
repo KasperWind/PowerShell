@@ -13,6 +13,8 @@ winget install BurntSushi.ripgrep.MSVC --source winget
 winget install --id junegun.fzf --source winget
 winget install --id Starship.Starship --source winget
 winget install ajeetdsouza.zoxide --source winget
+winget install --id Microsoft.PowerShell --source winget
+winget install --id Git.Git --source winget
 Install-Module -Name PSFzf --source winget
 ```
 
